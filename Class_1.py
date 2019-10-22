@@ -107,6 +107,7 @@ class Data(Time):
 	def getMonths(self) -> int:
 		return self.__months
 
+
 	def setMonths(self, months:int):
 		if 0 < months < 13:
 
@@ -117,6 +118,7 @@ class Data(Time):
 
 	def getYears(self) -> int:
 		return self.__years
+
 
 	def setYears(self, years:int):
 		if years != 0:
